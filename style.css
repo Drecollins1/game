@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;;
+}
+body{
+    background-color: hsl(217, 100%, 97%);
+}
+.navbar{
+    width: 60%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 20%;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 4%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+.inner{
+    margin-top: 1.5%;
+}
+.step1{
+    position: absolute;
+    top: 9.5%;
+    left: 12%;
+    color: hsl(229, 15%, 78%);
+    
+}
+.step2{
+    position: absolute;
+    top: 19.5%;
+    left: 12%;
+    color: hsl(229, 15%, 78%);
+}
+.step3{
+    position: absolute;
+    top: 29.5%;
+    left: 12%;
+    color: hsl(229, 15%, 78%);
+    
+}
+.step4{
+    color: hsl(229, 15%, 78%);
+    position: absolute;
+    top: 39.5%;
+    left: 12%;
+    
+}
+.one{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(206, 94%, 87%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+    
+}
+.two{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(243, 100%, 62%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+}
+.three{
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(243, 100%, 62%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+}
+.four{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(243, 100%, 62%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.one:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.two:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.three:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.four:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.info{
+    position: absolute;
+    top: 13%;
+    left: 12%;
+    color: #fff;
+}
+.select{
+    position: absolute;
+    top: 23%;
+    left: 12%;
+    color: #fff;
+}
+.add{
+    position: absolute;
+    top: 33%;
+    left: 12%;
+    color: #fff;
+}
+.sum{
+    position: absolute;
+    top: 43%;
+    left: 12%;
+    color: #fff;
+}
+h2{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: hsl(213, 96%, 18%);
+    font-weight: 800;
+}
+p{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    color:hsl(229, 15%, 78%);
+}
+.name{
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    color: hsl(213, 96%, 18%);
+}
+.ola{
+    position: absolute;
+    left: 45%;
+    top: 29%;
+    width: 43%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.address{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    color: hsl(213, 96%, 18%);
+}
+.email{
+    position: absolute;
+    left: 45%;
+    top: 44%;
+    width: 43%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.phone{
+    position: absolute;
+    left: 45%;
+    top: 55%;
+    color: hsl(213, 96%, 18%);
+}
+.number{
+    position: absolute;
+    left: 45%;
+    top: 59%;
+    width: 43%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsl(213, 96%, 18%);
+    border-style: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: hsl(228, 100%, 84%);
+}

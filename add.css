@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;;
+}
+body{
+    background-color: hsl(217, 100%, 97%);
+}
+.navbar{
+    width: 60%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 20%;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 4%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+.inner{
+    margin-top: 1.5%;
+}
+.step1{
+    position: absolute;
+    top: 9.5%;
+    left: 12%;
+    color: hsl(229, 15%, 78%);
+    
+}
+.step2{
+    position: absolute;
+    top: 19.5%;
+    left: 12%;
+    color: hsl(229, 15%, 78%);
+}
+.step3{
+    position: absolute;
+    top: 29.5%;
+    left: 12%;
+    color: hsl(229, 15%, 78%);
+    
+}
+.step4{
+    color: hsl(229, 15%, 78%);
+    position: absolute;
+    top: 39.5%;
+    left: 12%;
+    
+}
+.one{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(243, 100%, 62%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+    color: #fff;
+}
+.two{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(243, 100%, 62%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+    color: #fff;
+}
+.three{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(206, 94%, 87%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+    color: #fff;
+}
+.four{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: hsl(243, 100%, 62%);
+    border-color: #fff;
+    border-style: solid;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.one:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.two:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.three:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.four:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+.info{
+    position: absolute;
+    top: 13%;
+    left: 12%;
+    color: #fff;
+}
+.select{
+    position: absolute;
+    top: 23%;
+    left: 12%;
+    color: #fff;
+}
+.add{
+    position: absolute;
+    top: 33%;
+    left: 12%;
+    color: #fff;
+}
+.sum{
+    position: absolute;
+    top: 43%;
+    left: 12%;
+    color: #fff;
+}
+h2{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: hsl(213, 96%, 18%);
+    font-weight: 800;
+}
+h4{
+    position: absolute;
+    top: 16%;
+    left: 45%;
+    color:hsl(213, 96%, 18%);
+}
+p{
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    color:hsl(229, 15%, 78%);
+}
+.online{
+    width: 400px;
+    height: 70px;
+    background-color: hsl(217, 100%, 97%);
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 28%;
+    border-radius: 8px;
+}
+.larger{
+    width: 400px;
+    height: 70px;
+    background-color: hsl(217, 100%, 97%);
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 42.5%;
+    border-radius: 8px;
+}
+.profile{
+    width: 400px;
+    height: 70px;
+    background-color: hsl(217, 100%, 97%);
+    display: flex;
+    position: absolute;
+    left: 45%;
+    top: 57.5%;
+    border-radius: 8px;
+}
+
+.next{
+    position: absolute;
+    left: 75%;
+    width: 125px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsl(213, 96%, 18%);
+    color: #fff;
+    top: 85%;
+    border-style: none;
+    cursor: pointer;
+}
+.next:hover{
+    background-color: hsl(228, 100%, 84%);
+}
+input{
+    margin-left: 20px;
+    width: 18px;
+    cursor: pointer;
+}
+.profile:hover{
+    background-color: #fff;
+    border: 0.5px solid rgb(201, 198, 198);
+    cursor: pointer;
+    
+}
+.larger:hover{
+    background-color: #fff;
+    border: 0.5px solid rgb(201, 198, 198);
+    cursor: pointer;
+    
+}
+.online:hover{
+    background-color: #fff;
+    border: 0.5px solid rgb(201, 198, 198);
+    cursor: pointer;
+    
+}
+small{
+    position: absolute;
+    left: 15%;
+    color:hsl(229, 15%, 78%);
+    margin-top: 40px;
+    
+}
+.lar{
+    position: absolute;
+    margin-top: 8px;
+    left: 15%;
+    color:hsl(213, 96%, 18%);
+}
+.cus{
+    position: absolute;
+    margin-top: 8px;
+    left: 15%;
+    color:hsl(213, 96%, 18%);
+}
+.onl{
+    position: absolute;
+    margin-top: 8px;
+    left: 15%;
+    color:hsl(213, 96%, 18%);
+}
+span{
+    margin-left: 70%;
+    margin-top: 25px;
+    font-size: smaller;
+    color: hsl(243, 100%, 62%);
+}
+.back{
+    position: absolute;
+    left: 45%;
+    color: hsl(231, 11%, 63%);
+    bottom: 6%;
+    font-weight: 600;
+}
+.back:hover{
+    color: hsl(213, 96%, 18%);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: hsl(213, 96%, 18%);
+    border-style: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: hsl(228, 100%, 84%);
+}
